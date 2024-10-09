@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: mixpc_mboulila
+Version: 0.0.1
+Summary: A mixed precision cost estimator for PyTorch models
+Author-email: Mahdi Boulila <mahdi_boulila@brown.edu>
+Project-URL: Homepage, https://github.com/pypa/mixpc
+Project-URL: Issues, https://github.com/pypa/mixpc/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# MixPC: Mixed Precision Cost Estimator
+
+The **Mixed Precision Cost Estimator** is a powerful utility package designed for machine learning practitioners and researchers to accurately assess the computational cost of deep learning models based on mixed precision. This package reads a model’s structure and calculates the FLOPs (Floating Point Operations) and MACs (Multiply-Accumulate Operations) for each layer and module, while also extracting the weight and activation precisions. By providing a custom cost function (such as MACs * weight_precision² * activation_precision), the package estimates the cost for every layer and module, summing them up to deliver a total cost for the entire model. This innovative tool enables precise cost estimation for models using mixed precision, offering a new metric to benchmark and optimize neural networks for efficiency. The package is compatible with all PyTorch models and is currently applied in multi-task learning contexts. It is particularly valuable for automating the search for efficient mixed precision configurations, driving both performance and resource optimization in model design.
