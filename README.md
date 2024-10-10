@@ -5,7 +5,7 @@ The **Mixed Precision Cost Estimator** is a powerful utility package designed fo
 ## Installation
 
 ```bash
-python3 -m pip install --index-url https://test.pypi.org/simple/ --no-deps mixpc_mboulila
+python3 -m pip install --index-url https://test.pypi.org/simple/ --no-deps mixpc
 ```
 
 ## Usage
