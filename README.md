@@ -63,6 +63,6 @@ For any questions or suggestions, please contact the author at [mahdi_boulila@br
 
 ## Acknowledgments
 
-This package uses the `ptflops` library to calculate the model's complexity.
+This package uses the `calflops` library to calculate the model's complexity.
 This package was inspired by the need to accurately estimate the computational cost of deep learning models using mixed precision.
-This package is developed under the supervision of Professor [Sherief Reda](https://faculty.brown.edu/cogsci/people/david-cox/) within the [ScaLe Lab](https://scale-lab.github.io/) at Brown University.
+This package is developed within the [ScaLe Lab](https://scale-lab.github.io/) at Brown University.
